@@ -56,9 +56,12 @@
 
             <form action="https://formsubmit.co/ujjwal@kujjwal.com" method="POST">
 
-                <!-- FormSubmit Settings -->
+                <!-- FormSubmit settings -->
                 <input type="hidden" name="_captcha" value="false">
-                <input type="hidden" name="_next" value="thankyou.html">
+                <input type="hidden" name="_subject" value="New Contact Message">
+
+                <!-- MUST be full URL -->
+                <input type="hidden" name="_next" value="https://www.kujjwal.com/thankyou.html">
 
                 <div class="form-group">
                     <input type="text" name="name" placeholder="Your Name" required>
@@ -75,7 +78,9 @@
                 <button type="submit" class="btn-primary full-btn">
                     Send Message
                 </button>
+
             </form>
+
         </div>
 
     </div>
