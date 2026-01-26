@@ -1,36 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Kujjwal & Co | Home</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <title>Kujjwal & Co</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<!-- NAVBAR -->
+<!-- ================= NAVBAR ================= -->
 <header class="navbar">
-    <div class="logo">K Ujjwal<span>&</span>Co</div>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+  <div class="logo">K Ujjwal <span>& </span>Co</div>
+
+  <div class="hamburger" id="hamburger">
+    <span></span><span></span><span></span>
+  </div>
+
+  <nav id="nav-menu">
+    <ul>
+      <li><a href="#home" class="nav-link active">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#services" class="nav-link">Services</a></li>
+      <li><a href="career.html">Career</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+  </nav>
 </header>
 
-<section class="hero">
-    <div class="hero-overlay">
-        <div class="hero-content">
-            <h1>Empowering Businesses with Confidence</h1>
-            <p>Strategic consulting, compliance, finance & advisory services.</p>
-        </div>
+<!-- ================= HOME ================= -->
+<section class="hero section" id="home">
+  <div class="hero-overlay">
+    <div class="hero-content">
+      <h1>Empowering Businesses with Confidence</h1>
+      <p>Strategic consulting, compliance, finance & advisory services.</p>
     </div>
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="page section" id="about">
+  <h1>About K ujjwal & Co</h1>
+  <p>
+    K Ujjwal & Co is a professional consulting firm delivering assurance,
+    taxation, compliance, finance, and business advisory services.
+  </p>
+  <p>
+        We focus on long-term partnerships, integrity, and tailored solutions
+        that help organizations grow sustainably.
+  </p>
+</section>
+
+<!-- ================= SERVICES ================= -->
+<section class="services section" id="services">
+  <h1>Our Services</h1>
+
+  <div class="service-grid">
+
+    <div class="card">
+      <h3>Assurance & Audit</h3>
+      <ul>
+        <li>Internal Audit</li>
+        <li>Statutory Audit</li>
+        <li>Tax Audit</li>
+        <li>Concurrent Audit</li>
+        <li>Risk & Compliance Audit</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Tax & Compliance</h3>
+      <ul>
+        <li>GST Registration & Returns</li>
+        <li>Income Tax Returns</li>
+        <li>TDS & TCS Compliance</li>
+        <li>Tax Planning & Advisory</li>
+        <li>Representation before Authorities</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Business Advisory</h3>
+      <ul>
+        <li>Business Setup & Structuring</li>
+        <li>Process Improvement</li>
+        <li>Startup Advisory</li>
+        <li>Management Consulting</li>
+        <li>Financial Due Diligence</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Finance & Accounting</h3>
+      <ul>
+        <li>Outsourced Accounting</li>
+        <li>MIS & Reporting</li>
+        <li>Bookkeeping Services</li>
+        <li>Financial Statements</li>
+        <li>Payroll Management</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="page section" id="contact">
+  <h1>Contact Us</h1>
+
+  <div class="contact-wrapper">
+
+    <div class="contact-info">
+      <p>
+        Rajeev Nagar Main Rd, near Veena Vidya Niketan School,<br>
+        Patna, Bihar 800024
+      </p>
+      <p><strong>Email:</strong> ujjwal@kujjwal.com</p>
+      <p><strong>Phone:</strong> +91 9818514370</p>
+    </div>
+
+    <div class="contact-card">
+      <h2>Send a Message</h2>
+
+      <form action="https://formsubmit.co/ujjwal@kujjwal.com" method="POST">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_subject" value="New Contact Message">
+
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Email Address" required>
+        <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+
+        <button type="submit" class="btn-primary">Send Message</button>
+      </form>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= GOOGLE MAP ================= -->
+<section class="map-section">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3597.171363674992!2d85.09118749999999!3d25.6324375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed57002133a4fb%3A0x38dbde5d803e8dfd!2sK%20UJJWAL%20%26%20CO!5e0!3m2!1sen!2sin!4v1769355355693!5m2!1sen!2sin"
+    loading="lazy"
+    allowfullscreen>
+  </iframe>
 </section>
 
 <footer>
-    <p>© 2026 Kujjwal & Co. All Rights Reserved.</p>
+  <p>© 2026 Kujjwal & Co. All Rights Reserved.</p>
 </footer>
 
 <script src="js/script.js"></script>

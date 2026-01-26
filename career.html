@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Career | K Ujjwal & Co</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<header class="navbar">
+  <div class="logo">K Ujjwal<span>&</span>Co</div>
+
+  <div class="hamburger" id="hamburger">
+    <span></span><span></span><span></span>
+  </div>
+
+  <nav id="nav-menu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#services">Services</a></li>
+      <li><a href="career.html" class="active">Career</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- ================= PAGE HEADER ================= -->
+<section class="page-header">
+  <h1>Career</h1>
+  <p>Home / Career</p>
+</section>
+
+<!-- ================= INTERNSHIP ================= -->
+<section class="page">
+  <div class="career-grid">
+    <div class="career-image">
+        <img src="assets/career.jpg" alt="Career at K Ujjwal & Co">
+    </div>
+    <div class="career-content">
+      <h2>Internship</h2>
+      <p>
+        At K Ujjwal & Co, we believe in nurturing young talent by providing
+        hands-on exposure, mentoring, and practical learning across domains.
+      </p>
+
+      <ul>
+        <li>Subject-related practical exposure</li>
+        <li>Guidance from experienced professionals</li>
+        <li>Exposure to diversified clients</li>
+        <li>Performance-based growth opportunities</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= EXPERIENCED ================= -->
+<section class="page light-bg">
+  <h2 class="center">Experienced Professionals</h2>
+
+  <p class="center max-text">
+    We value the experience and leadership skills that professionals bring.
+    At K Ujjwal & Co, you will handle responsibilities, client interactions,
+    and develop leadership capabilities.
+  </p>
+
+  <p class="center">
+    You may also write to us directly at:
+    <strong>ujjwal@kujjwal.com</strong>
+  </p>
+</section>
+
+<!-- ================= CAREER FORM ================= -->
+<section class="page">
+  <h2 class="center">Apply Now</h2>
+
+  <form
+    class="career-form"
+    action="https://formsubmit.co/ujjwal@kujjwal.com"
+    method="POST">
+
+    <!-- REQUIRED FOR FORMSUBMIT -->
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_subject" value="Career Application - K Ujjwal & Co">
+    <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="_replyto" value="%email">
+
+    <!-- NAME & EMAIL -->
+    <div class="form-row">
+      <input type="text" name="name" placeholder="Full Name" required>
+      <input type="email" name="email" placeholder="Email Address" required>
+    </div>
+
+    <!-- PHONE & QUALIFICATION -->
+    <div class="form-row">
+      <input type="tel" name="phone" placeholder="Phone Number" required>
+      <input type="text" name="qualification" placeholder="Last Qualification" required>
+    </div>
+
+    <!-- DOB -->
+    <div class="form-row">
+      <div class="date-field">
+        <input
+          type="text"
+          name="dob"
+          placeholder="Date of Birth (DD/MM/YYYY)"
+          required
+          onfocus="this.type='date'"
+          onblur="if(!this.value) this.type='text'">
+      </div>
+    </div>
+
+    <!-- CURRENT STATUS -->
+    <div class="form-row">
+      <input
+        type="text"
+        name="current_status"
+        placeholder="Currently What Are You Doing"
+        required>
+    </div>
+
+    <!-- RESUME LINK -->
+    <div class="form-row">
+      <input
+        type="url"
+        name="resume_link"
+        placeholder="Resume Link (Google Drive / Dropbox)"
+        required>
+    </div>
+
+    <p style="font-size:14px; color:#666; margin-bottom:15px;">
+      Please upload your resume to Google Drive and share the access link.
+    </p>
+
+    <button type="submit" class="btn-primary">
+      Submit Application
+    </button>
+
+  </form>
+  <!-- FormSubmit configuration -->
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_subject" value="Career Application - K Ujjwal & Co">
+    <input type="hidden" name="_template" value="table">
+
+    <!-- Redirect after submit -->
+    <input type="hidden" name="_next" value="https://www.kujjwal.com/thankyou.html">
+
+    <!-- Auto-reply settings -->
+    <input type="hidden" name="_autoresponse"
+    value="Thank you for applying at K Ujjwal & Co.
+
+    We have received your application successfully.
+
+    Our team will review your profile and get back to you if shortlisted.
+
+    Warm regards,
+    K Ujjwal & Co">
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <p>© 2026 K Ujjwal & Co. All Rights Reserved.</p>
+</footer>
+
+<!-- JS -->
+<script src="js/script.js"></script>
+
+</body>
+</html>

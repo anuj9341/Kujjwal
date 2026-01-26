@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Services | Kujjwal & Co</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<header class="navbar">
+<!-- <header class="navbar">
     <div class="logo">K Ujjwal<span>&</span>Co</div>
     <nav>
         <ul>
@@ -17,9 +18,29 @@
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
+</header> -->
+<header class="navbar">
+    <div class="logo">K Ujjwal<span>&</span>Co</div>
+
+    <!-- Hamburger icon -->
+    <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <nav id="nav-menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="career.html">Career</a></li>
+        </ul>
+    </nav>
 </header>
 
-<section class="services page">
+<section class="services page" id="services">
     <h1>Our Services</h1>
 
     <div class="service-grid">
@@ -48,6 +69,6 @@
 <footer>
     <p>© 2026 Kujjwal & Co.</p>
 </footer>
-
+<script src="js/script.js"></script>
 </body>
 </html>
